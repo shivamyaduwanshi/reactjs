@@ -1,3 +1,8 @@
+# React Tree Node
+
+This code represents a TreeNode component in React that supports displaying and expanding/collapsing child nodes.
+
+```javascript
 import React, { useState } from 'react';
 
 function TreeNode({ id, name, data, level = 0, setExpanded, selected, setSelected }) {
